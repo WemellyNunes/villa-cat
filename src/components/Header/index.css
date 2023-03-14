@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3vh;
+    border-bottom: 3.5px solid #A0C3D2;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-itens {
+    font-family: 'Sarala', sans-serif;
+    color: #180a0a;
+    font-weight: 400;
+    font-size: 18px;
+}
